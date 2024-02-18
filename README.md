@@ -30,7 +30,7 @@ El juego se desarrolla de la siguiente manera:
 3. Los cangrejos se mueven aleatoriamente hasta que uno de ellos llega en primer lugar a la meta.
 4. Cuando uno de ellos traspasa la línea de meta, termina el juego, se nombra al cangrejo ganador y se habilita de nuevo el botón de comenzar la carrera.
 
-Respecto al código
+Respecto al código:
 
 Es una aplicación bastante sencilla así que no hay mucho que añadir en cuanto a código se refiere: manejo del DOM para poder acceder al CSS de los elementos (cangrejos) y movimiento en base a números aleatorios. Los cangrejos se mueven de manera aleatoria un determinado número de píxeles haciendo así que avancen hasta la línea de meta. Una vez la han alcanzado, pues el máximo número de píxeles que pueden moverse es de 1770px, se paran y se anuncia al cangrejo ganador. 
 
