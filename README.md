@@ -1,5 +1,7 @@
 # ActividadesDWEC
 
+-- SIMON SAYS --
+
 La idea principal para el desarrollo de esta aplicación fue adaptar el tan conocido juego de "Simon Says" en versión web. 
 
 El juego se desarrolla de la siguiente manera:
@@ -17,3 +19,5 @@ Para mí ha sido muy importante la creación de la booleana que desactiva los cu
 En la parte del jugador (cuando el usuario resuelve la combinación) podría haber realizado una sola función y dentro de esta, ver qué botón ha sido pulsado y de esta manera actuar de una forma o de otra; como para este juego solo había 4 cuadrados disponibles, decidí hacer una función para cada cuadrado y que así fuese más fácil de entender para mí aunque haya que escribir cuatro funciones prácticamente iguales y esto haga que el código sea un poco más "largo" o "feo". 
 
 Una vez finaliza el juego: bien ganando o perdiendo, se añade la función: reiniciarJuego que es la encargada de vaciar ambos arrays (secuencia y secuenciaPulsada) para que el juego pueda comenzar de nuevo añadiendo otros cuatro números aleatoriamente y además te permite poder volver a pulsar el botón comenzar que habíamos deshabilitado al comenzar el juego. 
+
+-- CARRERA DE CANGREJOS --
