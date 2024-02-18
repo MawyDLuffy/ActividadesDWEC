@@ -21,3 +21,11 @@ En la parte del jugador (cuando el usuario resuelve la combinación) podría hab
 Una vez finaliza el juego: bien ganando o perdiendo, se añade la función: reiniciarJuego que es la encargada de vaciar ambos arrays (secuencia y secuenciaPulsada) para que el juego pueda comenzar de nuevo añadiendo otros cuatro números aleatoriamente y además te permite poder volver a pulsar el botón comenzar que habíamos deshabilitado al comenzar el juego. 
 
 -- CARRERA DE CANGREJOS --
+
+La idea principal para el desarrollo de esta aplicación fue el poder crear algo resultón y sencillo que me hiciera disfrutar de la programación con JavaScript. 
+
+El juego se desarrolla de la siguiente manera:
+1. Para comenzar a jugar hay que pulsar el botón "¡Comenzar!".
+2. Este botón se deshabilita y comienza la carrera.
+3. Los cangrejos se mueven aleatoriamente hasta que uno de ellos llega en primer lugar a la meta.
+4. Cuando uno de ellos traspasa la línea de meta, termina el juego, se nombra al cangrejo ganador y se habilita de nuevo el botón de comenzar la carrera. 
