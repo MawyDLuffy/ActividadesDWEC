@@ -28,4 +28,12 @@ El juego se desarrolla de la siguiente manera:
 1. Para comenzar a jugar hay que pulsar el botón "¡Comenzar!".
 2. Este botón se deshabilita y comienza la carrera.
 3. Los cangrejos se mueven aleatoriamente hasta que uno de ellos llega en primer lugar a la meta.
-4. Cuando uno de ellos traspasa la línea de meta, termina el juego, se nombra al cangrejo ganador y se habilita de nuevo el botón de comenzar la carrera. 
+4. Cuando uno de ellos traspasa la línea de meta, termina el juego, se nombra al cangrejo ganador y se habilita de nuevo el botón de comenzar la carrera.
+
+Respecto al código
+
+Es una aplicación bastante sencilla así que no hay mucho que añadir en cuanto a código se refiere: manejo del DOM para poder acceder al CSS de los elementos (cangrejos) y movimiento en base a números aleatorios. Los cangrejos se mueven de manera aleatoria un determinado número de píxeles haciendo así que avancen hasta la línea de meta. Una vez la han alcanzado, pues el máximo número de píxeles que pueden moverse es de 1770px, se paran y se anuncia al cangrejo ganador. 
+
+Una de las cosas importantes del código es que cuando la información sobre los píxeles es recogida desde el CSS esta información viene en "String" por lo que es muy importante pasarla después a número entero para comprobar la victoria. Lo mismo cuando le pedimos a los cangrejos que se muevan: el número que tenemos es un entero y hay que enviarlo al CSS en un "String" concatenando este número con el "px" y que no haya problemas en el CSS. 
+
+Al finalizar el juego se reinician los px del CSS a 0 y los cangrejos vuelven a la línea de salida. La propiedad en css utilizada para marcar la posición del cangrejo y su movimiento es: "position:relative // left: 0px;". Esta propiedad hace que el elemento se mueva respecto a su posición original en el flujo del documento evitando así que el resto de elementos del css se desajusten. 
